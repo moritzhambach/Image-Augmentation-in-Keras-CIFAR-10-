@@ -6,13 +6,9 @@ In my case, I reach over 90 percent classificaion accuracy on CIFAR_10, a datase
 The model is a VGG-type convolutional network with 6 conv layers and one dense fully connected layer before the output. Apart from image augmentation, batch normalisation (in each layer) and dropout in the dense layer is used. 
 
 The results without image augmentation: 82.8% test accuracy, clearly overfitting!
+
 ![alt text](https://user-images.githubusercontent.com/33765868/34697327-e6a67af6-f4d2-11e7-88ad-3c81b4615cdc.png)
 
+With Image augmentation (rotation, horizontal flip, shifts): 90.3% test accuracy, still rising after 100 epochs (ca. 2h training)
 
-
-
-
-
-
-
-
+![alt text](https://user-images.githubusercontent.com/33765868/34697363-0fc85b52-f4d3-11e7-882c-f779cf96b846.png)
