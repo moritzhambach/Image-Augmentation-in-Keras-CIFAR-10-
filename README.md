@@ -6,6 +6,8 @@ In my case, I reach over 90 percent classificaion accuracy on CIFAR_10, a datase
 The model is a VGG-type convolutional network with 6 conv layers and one dense fully connected layer before the output. Apart from image augmentation, batch normalisation (in each layer) and dropout in the dense layer is used. 
 
 The results without image augmentation: 82.8% test accuracy, clearly overfitting!
+!(https://user-images.githubusercontent.com/33765868/34697327-e6a67af6-f4d2-11e7-88ad-3c81b4615cdc.png)
+
 
 
 
